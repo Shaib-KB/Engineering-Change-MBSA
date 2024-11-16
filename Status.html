@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EC/Verification Form</title>
+    <link rel="stylesheet" href="styling.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <form id="ec-verification-form">
+        <div class="form-header">
+          <h1>EC/Verification Form</h1>
+          <!-- Update the logo to an actual image -->
+          <div class="logo">
+            <img src="Pictures/Logo.jpg" alt="MBSA Logo" />
+          </div>
+        </div>
+
+        <label for="new-part">New Part no:</label>
+        <input type="text" id="new-part" name="new-part" required />
+
+        <label for="old-part">Old Part no:</label>
+        <input type="text" id="old-part" name="old-part" required />
+
+        <label for="line">Line:</label>
+        <input type="text" id="line" name="line" required />
+
+        <label for="stn">STN:</label>
+        <input type="text" id="stn" name="stn" required />
+
+        <label for="unit-number">Unit number:</label>
+        <input type="text" id="unit-number" name="unit-number" required />
+
+        <label for="description">Description:</label>
+        <textarea
+          id="description"
+          name="description"
+          rows="4"
+          required
+        ></textarea>
+
+        <label for="picture">New Picture:(Optional)</label>
+        <input type="file" id="picture" name="picture" accept="image/*" />
+
+        <div class="form-buttons">
+          <button type="button" id="upload-btn">Upload Pic</button>
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+      <a href="Home.html">Home</a>
+      <a href="Request.html">Request</a>
+      <a href="Status.html" class="active">Status</a>
+    </div>
+
+    <script src="JavaScript.js"></script>
+  </body>
+</html>

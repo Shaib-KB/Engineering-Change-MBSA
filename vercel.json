@@ -1,19 +1,5 @@
 {
     "version": 2,
-    "builds": [
-      {
-        "src": "*.html",
-        "use": "@vercel/static"
-      },
-      {
-        "src": "styling.css",
-        "use": "@vercel/static"
-      },
-      {
-        "src": "Pictures/*",
-        "use": "@vercel/static"
-      }
-    ],
     "routes": [
       {
         "src": "/",
@@ -26,10 +12,6 @@
       {
         "src": "/status",
         "dest": "/Status.html"
-      },
-      {
-        "src": "/(.*)",
-        "dest": "/Home.html"
       }
     ]
   }

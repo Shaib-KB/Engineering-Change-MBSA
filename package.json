@@ -4,7 +4,8 @@
   "description": "",
   "main": "JavaScript.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "vercel dev"
   },
   "keywords": [],
   "author": "",
@@ -13,12 +14,4 @@
     "webpack": "^5.97.1",
     "webpack-cli": "^5.1.4"
   }
-  {
-    "name": "html-project",
-    "version": "1.0.0",
-    "scripts": {
-      "start": "vercel dev"
-    }
-  }
-  
 }
